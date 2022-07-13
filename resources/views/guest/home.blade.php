@@ -9,6 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>BOOLPRESS</h1>
+
+    <div id="app"></div>
+
 </body>
 </html>

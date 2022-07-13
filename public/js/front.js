@@ -12279,12 +12279,19 @@ module.exports = g;
 /*!*******************************!*\
   !*** ./resources/js/front.js ***!
   \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module '/.App.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
 var app = new Vue({
-  el: '#app'
+  el: '#app',
+  render: function render(h) {
+    return h(!(function webpackMissingModule() { var e = new Error("Cannot find module '/.App.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+  }
 });
 
 /***/ }),
